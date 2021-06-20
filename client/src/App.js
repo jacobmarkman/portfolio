@@ -96,16 +96,16 @@ import { useState, React } from "react"
 // import Menu from "./components/menu/Menu"
 
 function App() {
-  const [menuOpen, setMenuOpen] = useState(false);
+  // const [menuOpen, setMenuOpen] = useState(false);
   return (
     <div className="app">mmm
-     <Topbar menuOpen={menuOpen} setMenuOpen={setMenuOpen}/>
-     <Menu menuOpen={menuOpen} setMenuOpen={setMenuOpen}/>
+     {/* <Topbar menuOpen={menuOpen} setMenuOpen={setMenuOpen}/>
+     <Menu menuOpen={menuOpen} setMenuOpen={setMenuOpen}/> */}
      <div className="sections">
-       {/* <Home/>
+       <Home/>
        <Skills/>
        <Projects/>
-       <Contact/> */}
+       <Contact/>
      </div>
     </div>
   );
