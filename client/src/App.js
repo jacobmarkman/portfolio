@@ -100,13 +100,13 @@ function App() {
   return (
     <div className="app">mmm
      {/* <Topbar menuOpen={menuOpen} setMenuOpen={setMenuOpen}/>
-     <Menu menuOpen={menuOpen} setMenuOpen={setMenuOpen}/> */}
+     <Menu menuOpen={menuOpen} setMenuOpen={setMenuOpen}/>
      <div className="sections">
        <Home/>
        <Skills/>
        <Projects/>
        <Contact/>
-     </div>
+     </div> */}
     </div>
   );
 }
