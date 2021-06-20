@@ -3,6 +3,9 @@
   "version": "1.0.0",
   "description": "A simple React Express (Node) app that I deployed to Heroku and used in my YouTube video \"Deploying React Express App to Heroku Made Super Simple!\"",
   "main": "server.js",
+  "engines": {
+    "node": "^16.0.0"
+  },
   "dependencies": {
     "body-parse": "^0.1.0",
     "cors": "^2.8.5",
