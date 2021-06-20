@@ -8,6 +8,7 @@
     "@testing-library/jest-dom": "^5.13.0",
     "@testing-library/react": "^11.2.7",
     "@testing-library/user-event": "^12.8.3",
+    "axios": "^0.21.1",
     "cors": "^2.8.5",
     "ityped": "^1.0.3",
     "morgan": "^1.10.0",
@@ -18,6 +19,7 @@
     "react-scripts": "4.0.3",
     "web-vitals": "^1.1.2"
   },
+  "proxy": "http://localhost:8080",
   "scripts": {
     "start": "nodemon app.ts",
     "build": "react-scripts build",
