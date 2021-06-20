@@ -4,7 +4,8 @@
   "description": "A simple React Express (Node) app that I deployed to Heroku and used in my YouTube video \"Deploying React Express App to Heroku Made Super Simple!\"",
   "main": "server.js",
   "engines": {
-    "node": "^16.0.0"
+    "npm": "7.10.0",
+    "node": "16.0.0"
   },
   "dependencies": {
     "body-parse": "^0.1.0",
