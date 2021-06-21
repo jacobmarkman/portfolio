@@ -25,54 +25,54 @@ function App() {
   //    name: "",
   //    message: ""
   // }
-  const [menuOpen, setMenuOpen] = useState(false);
- }
+  // const [menuOpen, setMenuOpen] = useState(false);
 
- componentDidMount = () => {
-    this.loadPeople()
-  }
 
-  newName = (event) => {
-    this.setState({
-      name: event.target.value
-    })
-}
+//  componentDidMount = () => {
+//     this.loadPeople()
+//   }
 
-  newMessage = (event) => {
-    this.setState({
-      message: event.target.value
-    })
-  }
+//   newName = (event) => {
+//     this.setState({
+//       name: event.target.value
+//     })
+// }
 
- createPerson = (event) => {
-    event.preventDefault();
-    axios.post(
-      '/api',
-      {
-        person: {
-          name: this.state.name,
-          message: this.state.message
-        }
-      }
-      ).then(
-      (response) => {
-        console.log(response)
-      }
-  )
-}
+//   newMessage = (event) => {
+//     this.setState({
+//       message: event.target.value
+//     })
+//   }
 
-loadPeople = () => {
-axios.get('/api').then(
-  (response) => {
-    console.log(response.people)
-  }
-)
+//  createPerson = (event) => {
+//     event.preventDefault();
+//     axios.post(
+//       '/api',
+//       {
+//         person: {
+//           name: this.state.name,
+//           message: this.state.message
+//         }
+//       }
+//       ).then(
+//       (response) => {
+//         console.log(response)
+//       }
+//   )
+// }
+
+// loadPeople = () => {
+// axios.get('/api').then(
+//   (response) => {
+//     console.log(response.people)
+//   }
+// )
 
 return (
-  <div className="app">mmm
+  <div className="app">
    <Home/>
-   <Topbar menuOpen={menuOpen} setMenuOpen={setMenuOpen}/>
-   <Menu menuOpen={menuOpen} setMenuOpen={setMenuOpen}/>
+   {/* <Topbar menuOpen={menuOpen} setMenuOpen={setMenuOpen}/>
+   <Menu menuOpen={menuOpen} setMenuOpen={setMenuOpen}/> */}
    <div className="sections">
      <Home/>
      <Skills/>
@@ -81,7 +81,7 @@ return (
    </div>
   </div>
 );
-}
+  }
 
 
 export default App;
