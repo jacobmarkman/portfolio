@@ -3,6 +3,10 @@ import logo from './logo.svg';
 import './App.css';
 import axios from 'axios';
 
+
+import Home from "./components/Home/Home";
+
+
 class App extends React.Component {
   constructor(){
    super()
@@ -70,6 +74,7 @@ render = () => {
           Learn React
         </a>
       </header>
+      <Home/>
 
       <form onSubmit={this.createPerson}>
         <input onChange={this.newName} type="text" placeholder="Name"/>
