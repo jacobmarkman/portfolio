@@ -3,6 +3,15 @@ import logo from './logo.svg';
 // import './App.css';
 import axios from 'axios';
 
+import Topbar from "./components/topbar/Topbar";
+import Home from "./components/Home/Home";
+import Projects from "./components/projects/Projects";
+import Skills from "./components/skills/Skills";
+import Contact from "./components/contact/Contact";
+import Menu from "./components/menu/Menu"
+import "./app.scss"
+import { useState, React } from "react"
+
 
 // import Home from "./components/home/Home";
 
@@ -16,6 +25,7 @@ class App extends React.Component {
      name: "",
      message: ""
   }
+  const [menuOpen, setMenuOpen] = useState(false);
  }
 
  componentDidMount = () => {
@@ -57,7 +67,22 @@ axios.get('/api').then(
     console.log(response.people)
   }
 )
+
+return (
+  <div className="app">mmm
+   <Home/>
+   <Topbar menuOpen={menuOpen} setMenuOpen={setMenuOpen}/>
+   <Menu menuOpen={menuOpen} setMenuOpen={setMenuOpen}/>
+   <div className="sections">
+     <Home/>
+     <Skills/>
+     <Projects/>
+     <Contact/>
+   </div>
+  </div>
+);
 }
+
 }
 
 // render = () => {
@@ -93,13 +118,7 @@ axios.get('/api').then(
 export default App; */
 
 
-import Topbar from "./components/topbar/Topbar";
-import Home from "./components/Home/Home";
-import Projects from "./components/projects/Projects";
-import Skills from "./components/skills/Skills";
-import Contact from "./components/contact/Contact";
-import "./app.scss"
-import { useState, React } from "react"
+
 // import Menu from "./components/menu/Menu"
 
 function App() {
