@@ -8,6 +8,7 @@
     "node": "16.0.0"
   },
   "dependencies": {
+    "@material-ui/icons": "^4.11.2",
     "body-parse": "^0.1.0",
     "core-js": "^3.15.0",
     "cors": "^2.8.5",
