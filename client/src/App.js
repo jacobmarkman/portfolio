@@ -61,7 +61,7 @@ axios.get('/api').then(
 
 render = () => {
   return (
-    <div className="App">Let's Deploy This
+    <div className="App">
     <Home/>
       {/* <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />

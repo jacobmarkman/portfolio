@@ -1,10 +1,5 @@
 .App {
   text-align: center;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  border: 2px solid blue;
-  border-radius: 50px;
 }
 
 .App-logo {
