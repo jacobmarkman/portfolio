@@ -83,7 +83,6 @@ return (
 );
 }
 
-}
 
 export default App;
 
