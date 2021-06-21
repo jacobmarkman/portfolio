@@ -58,12 +58,13 @@ axios.get('/api').then(
   }
 )
 }
+}
 
 // render = () => {
 //   return (
 //     <div className="App">
 //     <Home/>
-      {/* <header className="App-header">
+      /* <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
           Edit <code>src/App.js</code> and save to reload.
@@ -82,14 +83,14 @@ axios.get('/api').then(
         <input onChange={this.newMessage} type="text" placeholder="Message"/>
           <input type="submit" value="Submit"/>
       </form>
- */}
+ */
 
-    {/* </div>
+    /* </div>
   );
   }
 }
 
-export default App; */}
+export default App; */
 
 
 import Topbar from "./components/topbar/Topbar";
