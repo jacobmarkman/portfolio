@@ -8,7 +8,7 @@
     "node": "16.0.0"
   },
   "dependencies": {
-    "@babel/core": "^7.14.6",
+    "@babel/core": "7.12.3",
     "body-parse": "^0.1.0",
     "cors": "^2.8.5",
     "express": "^4.17.1",
@@ -17,7 +17,7 @@
     "path": "^0.12.7"
   },
   "scripts": {
-    "heroku-postbuild": "cd client && npm install --only=dev && npm install && npm run build",
+    "heroku-postbuild": "cd client && npm install && npm install --only=dev --no-shrinkwrap && npm run build",
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "cd react-ui/ && npm install && npm run build",
     "start": "node server.js"
