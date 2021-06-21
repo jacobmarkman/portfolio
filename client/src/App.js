@@ -4,7 +4,7 @@ import './App.css';
 import axios from 'axios';
 
 
-import Home from "./components/Home/Home";
+import Home from "./components/home/Home";
 
 
 class App extends React.Component {
