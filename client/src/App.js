@@ -85,6 +85,8 @@ return (
 
 }
 
+export default App;
+
 // render = () => {
 //   return (
 //     <div className="App">
