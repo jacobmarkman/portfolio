@@ -4,7 +4,7 @@ import './App.css';
 import axios from 'axios';
 
 
-import Home from "./components/home/Home";
+// import Home from "./components/home/Home";
 
 
 
@@ -59,10 +59,10 @@ axios.get('/api').then(
 )
 }
 
-render = () => {
-  return (
-    <div className="App">
-    <Home/>
+// render = () => {
+//   return (
+//     <div className="App">
+//     <Home/>
       {/* <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
@@ -84,38 +84,38 @@ render = () => {
       </form>
  */}
 
-    </div>
+    {/* </div>
   );
   }
 }
 
+export default App; */}
+
+
+import Topbar from "./components/topbar/Topbar";
+import Home from "./components/Home/Home";
+import Projects from "./components/projects/Projects";
+import Skills from "./components/skills/Skills";
+import Contact from "./components/contact/Contact";
+import "./app.scss"
+import { useState, React } from "react"
+// import Menu from "./components/menu/Menu"
+
+function App() {
+  const [menuOpen, setMenuOpen] = useState(false);
+  return (
+    <div className="app">mmm
+     <Home/>
+     <Topbar menuOpen={menuOpen} setMenuOpen={setMenuOpen}/>
+     <Menu menuOpen={menuOpen} setMenuOpen={setMenuOpen}/>
+     <div className="sections">
+       <Home/>
+       <Skills/>
+       <Projects/>
+       <Contact/>
+     </div>
+    </div>
+  );
+}
+
 export default App;
-
-
-// // import Topbar from "./components/topbar/Topbar";
-// import Home from "./components/Home/Home";
-// // import Projects from "./components/projects/Projects";
-// // import Skills from "./components/skills/Skills";
-// // import Contact from "./components/contact/Contact";
-// import "./app.scss"
-// import { useState, React } from "react"
-// // import Menu from "./components/menu/Menu"
-
-// function App() {
-//   const [menuOpen, setMenuOpen] = useState(false);
-//   return (
-//     <div className="app">mmm
-//      <Home/>
-//      <Topbar menuOpen={menuOpen} setMenuOpen={setMenuOpen}/>
-//      <Menu menuOpen={menuOpen} setMenuOpen={setMenuOpen}/>
-//      <div className="sections">
-//        <Home/>
-//        <Skills/>
-//        <Projects/>
-//        <Contact/>
-//      </div>
-//     </div>
-//   );
-// }
-
-// export default App;
