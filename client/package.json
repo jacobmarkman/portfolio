@@ -17,7 +17,7 @@
     "axios": "^0.21.1",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
-    "react-scripts": "4.0.1",
+    "react-scripts": "4.0.3",
     "object-path": ">=0.11.5",
     "url-parse": "^1.5.0"
   },
