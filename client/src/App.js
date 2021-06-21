@@ -18,13 +18,13 @@ import { useState, React } from "react"
 
 
 
-class App extends React.Component {
-  constructor(){
-   super()
-   this.state = {
-     name: "",
-     message: ""
-  }
+function App() {
+  // constructor(){
+  //  super()
+  //  this.state = {
+  //    name: "",
+  //    message: ""
+  // }
   const [menuOpen, setMenuOpen] = useState(false);
  }
 
