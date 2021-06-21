@@ -4,6 +4,10 @@ import './App.css';
 import axios from 'axios';
 
 
+import Home from "./components/home/Home.jsx";
+
+
+
 
 class App extends React.Component {
   constructor(){
@@ -58,6 +62,7 @@ axios.get('/api').then(
 render = () => {
   return (
     <div className="App">Let's Deploy This
+    <Home/>
       {/* <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
