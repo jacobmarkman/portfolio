@@ -4,7 +4,7 @@ import './App.css';
 import axios from 'axios';
 
 
-import Home from "./components/home/Home.jsx";
+import Home from "./components/home/Home";
 
 
 
