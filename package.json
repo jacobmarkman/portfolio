@@ -17,9 +17,9 @@
     "path": "^0.12.7"
     },
   "scripts": {
-    "heroku-postbuild": "cd client && npm install --only=dev && npm install && npm run build",
+    "heroku-postbuild": "cd client && yarn install --only=dev && yarn install && yarn run build",
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "cd react-ui/ && npm install && npm run build",
+    "build": "cd react-ui/ && yarn install && yarn run build",
     "start": "node server.js"
   },
   "repository": {
