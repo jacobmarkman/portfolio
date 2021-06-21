@@ -4,7 +4,7 @@ import logo from './logo.svg';
 import axios from 'axios';
 
 import Topbar from "./components/topbar/Topbar";
-import Home from "./components/Home/Home";
+import Home from "./components/home/Home";
 import Projects from "./components/projects/Projects";
 import Skills from "./components/skills/Skills";
 import Contact from "./components/contact/Contact";
