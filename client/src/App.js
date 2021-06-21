@@ -4,8 +4,6 @@ import './App.css';
 import axios from 'axios';
 
 
-import Home from "./components/home/Home";
-
 
 class App extends React.Component {
   constructor(){
@@ -59,8 +57,8 @@ axios.get('/api').then(
 
 render = () => {
   return (
-    <div className="App">
-      <header className="App-header">
+    <div className="App">Let's Deploy This
+      {/* <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
           Edit <code>src/App.js</code> and save to reload.
@@ -74,14 +72,12 @@ render = () => {
           Learn React
         </a>
       </header>
-      <Home/>
-
       <form onSubmit={this.createPerson}>
         <input onChange={this.newName} type="text" placeholder="Name"/>
         <input onChange={this.newMessage} type="text" placeholder="Message"/>
           <input type="submit" value="Submit"/>
       </form>
-
+ */}
 
     </div>
   );
