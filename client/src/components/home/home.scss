@@ -4,10 +4,10 @@
     background-color: white;
     display: flex;
 
-    @include mobile {
-        display: flex;
-        flex-direction: column;
-    }
+    // @include mobile {
+    //     display: flex;
+    //     flex-direction: column;
+    // }
 
     .left {
         flex: 0.5;
@@ -59,14 +59,14 @@
                     animation: blink 1s infinite;
                 }
 
-                @keyframes blink {
-                    50% {
-                        opacity: 1;
-                    }
-                    100% {
-                        opacity: 0;
-                    }
-                }
+                // @keyframes blink {
+                //     50% {
+                //         opacity: 1;
+                //     }
+                //     100% {
+                //         opacity: 0;
+                //     }
+                // }
             }
         }
         a {
@@ -79,11 +79,11 @@
                 animation: arrowBlink 2s infinite;
             }
 
-            @keyframes arrowBlink {
-                100% {
-                    opacity: 0;
-                }
-            }
+            // @keyframes arrowBlink {
+            //     100% {
+            //         opacity: 0;
+            //     }
+            // }
         }
     }
 }
