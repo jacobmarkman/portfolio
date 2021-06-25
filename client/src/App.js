@@ -1,5 +1,5 @@
 // import React from 'react';
-import logo from './logo.svg';
+// import logo from './logo.svg';
 // import './App.css';
 import axios from 'axios';
 
@@ -70,6 +70,7 @@ function App() {
 
 return (
   <div className="app">
+    <Topbar/>
    {/* <Topbar menuOpen={menuOpen} setMenuOpen={setMenuOpen}/>
    <Menu menuOpen={menuOpen} setMenuOpen={setMenuOpen}/> */}
    <div className="sections">
