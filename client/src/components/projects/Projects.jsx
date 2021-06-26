@@ -15,13 +15,11 @@ export default function Projects() {
                     </a>
                     <h3>Tic Tac Toe</h3>
                 </div>
-                <div className="item">
-                    <img src="./assets/down.png" alt="" />
-                    <h3>Project 2</h3>
+                <div className="item noitem">
+                    <h3>In Progress...</h3>
                 </div>
-                <div className="item">
-                    <img src="./assets/down.png" alt="" />
-                    <h3>Project 3</h3>
+                <div className="item noitem">
+                    <h3>In Progress...</h3>
                 </div>
             </div>
         </div>
