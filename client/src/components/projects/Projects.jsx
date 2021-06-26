@@ -10,8 +10,9 @@ export default function Projects() {
             <h1>Projects</h1>
             <div className="container">
                 <div className="item">
-                    <a href="https://github.com/jacobmarkman/tic-tac-toe"></a>
-                    <img src="./assets/down.png" alt="" />
+                    <a href="https://github.com/jacobmarkman/tic-tac-toe" target="_blank" and rel="noopener noreferrer">
+                        <img src="./assets/tictactoe.png" alt="" />
+                    </a>
                     <h3>Tic Tac Toe</h3>
                 </div>
                 <div className="item">

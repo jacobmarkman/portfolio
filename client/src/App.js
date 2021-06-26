@@ -19,13 +19,16 @@ import { useState, React } from "react"
 
 
 function App() {
+
+  const [menuOpen, setMenuOpen] = useState(false);
+
+
   // constructor(){
   //  super()
   //  this.state = {
   //    name: "",
   //    message: ""
   // }
-  // const [menuOpen, setMenuOpen] = useState(false);
 
 
 //  componentDidMount = () => {
@@ -70,9 +73,9 @@ function App() {
 
 return (
   <div className="app">
-    <Topbar/>
-   {/* <Topbar menuOpen={menuOpen} setMenuOpen={setMenuOpen}/>
-   <Menu menuOpen={menuOpen} setMenuOpen={setMenuOpen}/> */}
+    {/* <Topbar/> */}
+   <Topbar menuOpen={menuOpen} setMenuOpen={setMenuOpen}/>
+   <Menu menuOpen={menuOpen} setMenuOpen={setMenuOpen}/>
    <div className="sections">
      <Home/>
      <Skills/>

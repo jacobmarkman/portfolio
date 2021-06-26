@@ -20,27 +20,20 @@ export default function Contact() {
 
     return (
         <div className="contact" id="contact">
-            <h1>Contact</h1>
-            <form onSubmit={handleSubmit(onSubmit)}>
-                <input {...register("name", { required: true })} placeholder="name" />
-                {errors.name?.type === 'required' && "First name is required"}
-
-                <input {...register("email", { required: true, pattern: /^(([^<>()[\]\\.,;:\s@"]+(\.[^<>()[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/ })} placeholder="email" />
-                {errors.email?.type === 'required' && "Email is required"}
-
-                <input {...register("subject", { required: true })} placeholder="subject" />
-                {errors.subject?.type === 'required' && "Subject is required"}
-
-                <textarea {...register("message", { required: true })} placeholder="message" />
-                {errors.message?.type === 'required' && "Message is required"}
-
-                <button type="submit" name="" id="">Send</button>
-            </form>
+            <h1>Contact Me</h1>
             <div className="images">
-                <img src="assets/linkedin.svg" alt="" />
-                <img src="assets/github.svg" alt="" />
-                <img src="assets/instagram.svg" alt="" />
-                <img src="assets/facebook.svg" alt="" />
+                <a href="https://www.linkedin.com/in/jacobgiliovmarkman/" target="_blank" and rel="noopener noreferrer">
+                    <img src="assets/linkedin.svg" alt="" />
+                </a>
+                <a href="https://github.com/jacobmarkman" target="_blank" and rel="noopener noreferrer">
+                    <img src="assets/github.svg" alt="" />
+                </a>
+                <a href="https://www.instagram.com/jacobmarkman/" target="_blank" and rel="noopener noreferrer">
+                    <img src="assets/instagram.svg" alt="" />
+                </a>
+                <a href="https://www.facebook.com/yashaman/" target="_blank" and rel="noopener noreferrer">
+                    <img src="assets/facebook.svg" alt="" />
+                </a>
             </div>
         </div>
     )
