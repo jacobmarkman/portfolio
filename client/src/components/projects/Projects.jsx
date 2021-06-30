@@ -13,10 +13,10 @@ export default function Projects() {
                     <a href="https://github.com/jacobmarkman/tic-tac-toe" target="_blank" and rel="noopener noreferrer">
                         <img src="./assets/tictactoe.png" alt="" />
                     </a>
-                    <h3>Tic Tac Toe</h3>
+                    <h3>Tic Tac Toe Game</h3>
                 </div>
                 <div className="item noitem">
-                    <h3>In Progress...</h3>
+                    <h3>E-Commerce Shop (in Progress)</h3>
                 </div>
                 <div className="item noitem">
                     <h3>In Progress...</h3>
