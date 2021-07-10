@@ -18,7 +18,7 @@
     "ityped": "^1.0.3",
     "node-sass": "^6.0.0",
     "path": "^0.12.7",
-    "react-hook-form": "^7.9.0",
+    "react-hook-form": "^7.9.0"
   },
   "scripts": {
     "heroku-postbuild": "cd client && yarn install --only=dev && yarn install && yarn run build",
