@@ -17,7 +17,7 @@ export default function Projects() {
                 </div>
                 <div className="item">
                     <a href="https://commercejs-my-store-project.netlify.app/" target="_blank" and rel="noopener noreferrer">
-                        <img src="./assets/commerce-project" alt="" />
+                        <img src="./assets/commerce-project.png" alt="" />
                     </a>
                     <h3>E-Commerce Shop (in Progress)</h3>
                 </div>
