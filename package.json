@@ -18,13 +18,15 @@
     "ityped": "^1.0.3",
     "node-sass": "^6.0.0",
     "path": "^0.12.7",
-    "react-hook-form": "^7.9.0"
+    "react": "^15.3.1",
+    "react-hook-form": "^7.9.0",
+    "react-scripts": "^4.0.3"
   },
   "scripts": {
     "heroku-postbuild": "cd client && yarn install --only=dev && yarn install && yarn run build",
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "cd react-ui/ && yarn install && yarn run build",
-    "start": "node server.js"
+    "start": "cd client && react-scripts start"
   },
   "repository": {
     "type": "git",

@@ -1,17 +1,15 @@
-// import React from 'react';
+import React, { useState } from 'react';
 // import logo from './logo.svg';
 // import './App.css';
-import axios from 'axios';
+// import axios from 'axios';
 
 import Topbar from "./components/topbar/Topbar";
 import Home from "./components/home/Home";
 import Projects from "./components/projects/Projects";
 import Skills from "./components/skills/Skills";
 import Contact from "./components/contact/Contact";
-import Menu from "./components/menu/Menu"
-import "./app.scss"
-import { useState, React } from "react"
-
+import Menu from "./components/menu/Menu";
+import "./app.scss";
 
 // import Home from "./components/home/Home";
 

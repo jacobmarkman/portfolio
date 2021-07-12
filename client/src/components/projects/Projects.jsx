@@ -1,5 +1,5 @@
 import "./projects.scss"
-import { useState } from "react";
+import React, { useState } from "react";
 //a
 export default function Projects() {
 
