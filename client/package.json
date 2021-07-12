@@ -8,6 +8,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "heroku-postbuild": "npm install && npm run build",
     "start": "react-scripts start",
     "build": "react-scripts build"
   },
