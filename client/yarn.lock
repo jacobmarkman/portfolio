@@ -7859,6 +7859,11 @@ no-case@^3.0.4:
     lower-case "^2.0.2"
     tslib "^2.0.3"
 
+node-bin-setup@^1.0.0:
+  version "1.0.6"
+  resolved "https://registry.yarnpkg.com/node-bin-setup/-/node-bin-setup-1.0.6.tgz#4b5c9bb937ece702d7069b36ca78af4684677528"
+  integrity sha512-uPIxXNis1CRbv1DwqAxkgBk5NFV3s7cMN/Gf556jSw6jBvV7ca4F9lRL/8cALcZecRibeqU+5dFYqFFmzv5a0Q==
+
 node-forge@^0.10.0:
   version "0.10.0"
   resolved "https://registry.yarnpkg.com/node-forge/-/node-forge-0.10.0.tgz#32dea2afb3e9926f02ee5ce8794902691a676bf3"
@@ -7956,6 +7961,13 @@ node-sass@^6.0.0:
     sass-graph "2.2.5"
     stdout-stream "^1.4.0"
     "true-case-path" "^1.0.2"
+
+node@^16.4.0:
+  version "16.4.0"
+  resolved "https://registry.yarnpkg.com/node/-/node-16.4.0.tgz#da25fc334804d4043d99ccf39371ebefd6ccf047"
+  integrity sha512-6HFwNVm88RTjuMJVkvTq0TozF0fZdvtq56K5LStRaVJ4x3xQsax+P5sLsp3OChTsRlqr80eqoQ+mLggYXJte/g==
+  dependencies:
+    node-bin-setup "^1.0.0"
 
 nopt@^5.0.0:
   version "5.0.0"
