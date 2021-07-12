@@ -25,9 +25,10 @@
   "scripts": {
     "heroku-postbuild": "cd client && yarn install --only=dev && yarn install && yarn run build",
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "cd react-ui/ && yarn install && yarn run build",
+    "build": "cd client && yarn install && yarn run build",
     "start": "cd client && react-scripts start"
   },
+  "proxy": "http://localhost:8080",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/mujibsardar/react_express_heroku_example.git"
