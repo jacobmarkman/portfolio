@@ -10,7 +10,7 @@ export default function Projects() {
             <h1>Projects</h1>
             <div className="container">
                 <div className="item">
-                    <a href="https://github.com/jacobmarkman/tic-tac-toe" target="_blank" and rel="noopener noreferrer">
+                    <a href="https://jacob-markman-tic-tac-toe.netlify.app" target="_blank" and rel="noopener noreferrer">
                         <img src="./assets/tictactoe.png" alt="" />
                     </a> 
                     <h3>Tic Tac Toe Game</h3>
