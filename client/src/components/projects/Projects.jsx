@@ -1,6 +1,6 @@
 import "./projects.scss"
 import { useState } from "react";
-
+//a
 export default function Projects() {
 
     const [selected, setSelected] = useState("featured")
@@ -12,7 +12,7 @@ export default function Projects() {
                 <div className="item">
                     <a href="https://github.com/jacobmarkman/tic-tac-toe" target="_blank" and rel="noopener noreferrer">
                         <img src="./assets/tictactoe.png" alt="" />
-                    </a>
+                    </a> 
                     <h3>Tic Tac Toe Game</h3>
                 </div>
                 <div className="item">
