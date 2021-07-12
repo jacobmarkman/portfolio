@@ -1,43 +1,16 @@
 {
-  "name": "react_express_heroku",
-  "version": "1.0.0",
-  "description": "A simple React Express (Node) app that I deployed to Heroku and used in my YouTube video \"Deploying React Express App to Heroku Made Super Simple!\"",
-  "main": "server.js",
-  "engines": {
-    "npm": "7.10.0",
-    "node": "16.0.0"
-  },
-  "dependencies": {
-    "@material-ui/core": "^4.11.4",
-    "@material-ui/icons": "^4.11.2",
-    "body-parse": "^0.1.0",
-    "core-js": "^3.15.0",
-    "cors": "^2.8.5",
-    "express": "^4.17.1",
-    "helmet": "^3.23.3",
-    "ityped": "^1.0.3",
-    "node-sass": "^6.0.0",
-    "path": "^0.12.7",
-    "react": "^15.3.1",
-    "react-hook-form": "^7.9.0",
-    "react-scripts": "^4.0.3"
-  },
-  "scripts": {
-    "heroku-postbuild": "cd client && yarn install --only=dev && yarn install && yarn run build",
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "cd client && yarn install && yarn run build",
-    "start": "cd client && react-scripts start"
-  },
-  "proxy": "http://localhost:8080",
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/mujibsardar/react_express_heroku_example.git"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/mujibsardar/react_express_heroku_example/issues"
-  },
-  "homepage": "https://github.com/mujibsardar/react_express_heroku_example#readme"
-}
+    "name": "react-express-heroku",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1",
+      "start": "node index.js",
+      "heroku-postbuild": "cd client && npm install && npm run build"
+    },
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+      "express": "^4.16.4"
+    }
+  }
