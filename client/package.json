@@ -1,5 +1,9 @@
 {
   "name": "client",
+  "engines": {
+    "npm": "7.10.0",
+    "node": "16.0.0"
+  },
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
