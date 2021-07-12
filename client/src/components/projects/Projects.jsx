@@ -12,8 +12,8 @@ export default function Projects() {
                 <div className="item">
                     <a href="https://jacob-markman-tic-tac-toe.netlify.app" target="_blank" and rel="noopener noreferrer">
                         <img src="./assets/tictactoe.png" alt="" />
-                    </a> 
-                    <h3>Tic Tac Toe Game</h3>
+                        <h3>Tic Tac Toe Game</h3>
+                    </a>
                 </div>
                 <div className="item">
                     <a href="https://commercejs-my-store-project.netlify.app/" target="_blank" and rel="noopener noreferrer">
