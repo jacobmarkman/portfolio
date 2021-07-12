@@ -1,6 +1,7 @@
 import "./projects.scss"
 import React, { useState } from "react";
-//a
+import GitHubIcon from '@material-ui/icons/GitHub';
+
 export default function Projects() {
 
     const [selected, setSelected] = useState("featured")
@@ -9,19 +10,22 @@ export default function Projects() {
         <div className="projects" id="projects">
             <h1>Projects</h1>
             <div className="container">
+                {/* <GitHubIcon /> */}
                 <div className="item">
+                    <h3>Tic Tac Toe Game</h3>
                     <a href="https://jacob-markman-tic-tac-toe.netlify.app" target="_blank" and rel="noopener noreferrer">
                         <img src="./assets/tictactoe.png" alt="" />
                     </a>
-                    <h3>Tic Tac Toe Game</h3>
                 </div>
+                {/* <GitHubIcon /> */}
                 <div className="item">
-                    <h3>E-Commerce Shop (in Progress)
-                        <a href="https://commercejs-my-store-project.netlify.app/" target="_blank" and rel="noopener noreferrer">
-                            <img src="./assets/commerce-project.png" alt="" />
-                        </a>
-                    </h3>
+                    <h3>E-Commerce Shop</h3>
+                    <a href="https://commercejs-my-store-project.netlify.app/" target="_blank" and rel="noopener noreferrer">
+                        <img src="./assets/commerce-project.png" alt="" />
+                    </a>
                 </div>
+                {/* <GitHubIcon /> */}
+
                 <div className="item noitem">
                     <h3>In Progress...</h3>
                 </div>
