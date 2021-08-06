@@ -28,7 +28,7 @@ export default function Projects() {
 
                 <div className="item noitem">
                     <h3>Memories App</h3>
-                    <a href="https://a-memories-app.netlify.app/" target="_blank" and rel="noopener noreferrer">
+                    <a href="https://memories-app-jacob-markman.netlify.app/" target="_blank" and rel="noopener noreferrer">
                         <img src="./assets/memories.png" alt="" />
                     </a>
                 </div>
