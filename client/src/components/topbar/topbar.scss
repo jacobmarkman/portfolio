@@ -20,6 +20,10 @@
         align-items: center;
         justify-content: space-between;
 
+        @media (max-width: 767px) {
+            display: none;
+        }
+
         .left {
             display: flex;
             align-items: center;
@@ -31,9 +35,6 @@
                 color: inherit;
                 margin-right: 40px;
 
-                @include mobile {
-                    font-size: 180%;
-                }
             }
             .images {
                 display: flex;
@@ -41,6 +42,10 @@
                 align-items: center;
                 justify-content: center;
                 margin-left: 475px;
+
+                @media (max-width: 1000px) {
+                    display: none;
+                }
 
                 img {
                     padding: 5px 5px;
@@ -66,6 +71,14 @@
                 flex-direction: column;
                 justify-content: space-between;
                 cursor: pointer;
+
+                @include mobile {
+                    visibility: hidden;
+                }
+
+                @media (max-width: 767px) {
+                    display: none;
+                }
 
                 span {
                     width: 100%;
