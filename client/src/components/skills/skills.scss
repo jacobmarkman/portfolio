@@ -25,6 +25,10 @@
         border-radius: 50px;
         padding: 0px 20px;
         background: rgba(255, 255, 255, 0.335);
+
+        @media (max-width: 1000px) {
+            display: none;
+        }
     }
 }
 
@@ -37,6 +41,7 @@
         display: flex;
         flex-direction: column;
     }
+    
 
     > img {
         width: 100px;
@@ -47,6 +52,7 @@
         &:hover {
             background-color: rgb(178, 250, 178);
             border-radius: 10px;
+
         }
 
         @include mobile {
