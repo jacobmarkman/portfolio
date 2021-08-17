@@ -40,8 +40,8 @@
     @include mobile {
         display: flex;
         flex-direction: column;
+        margin: 50px 0;
     }
-    
 
     > img {
         width: 100px;
@@ -52,7 +52,9 @@
         &:hover {
             background-color: rgb(178, 250, 178);
             border-radius: 10px;
-
+            -webkit-transition: all 0.1s ease-in-out;
+            -moz-transition: all 0.1s ease-in-out;
+            transition: all 0.1s ease-in-out;
         }
 
         @include mobile {

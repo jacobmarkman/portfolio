@@ -14,7 +14,7 @@ export default function Projects() {
                     <GitHubIcon style={{ color: 'black' }} />
                 </a>
                 <div className="item">
-                    <h3>Tic Tac Toe Game
+                    <h3>Simple Tic-Tac-Toe Game
                         <br /><br />
                         <h5>(HTML, CSS, JavaScript)</h5>
                     </h3>

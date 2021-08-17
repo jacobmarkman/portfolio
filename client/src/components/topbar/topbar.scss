@@ -14,15 +14,15 @@
     z-index: 3;
     transition: all 1s ease;
 
+
+
     .wrapper {
         padding: 10px 10px;
         display: flex;
         align-items: center;
         justify-content: space-between;
 
-        @media (max-width: 767px) {
-            display: none;
-        }
+       
 
         .left {
             display: flex;
@@ -35,6 +35,7 @@
                 color: inherit;
                 margin-right: 40px;
 
+                
             }
             .images {
                 display: flex;
@@ -43,7 +44,7 @@
                 justify-content: center;
                 margin-left: 475px;
 
-                @media (max-width: 1000px) {
+                @media (max-width: 767px) {
                     display: none;
                 }
 

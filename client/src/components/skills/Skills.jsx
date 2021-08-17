@@ -23,6 +23,8 @@ export default function Skills() {
                 <img src="assets/node-js.svg" alt="" onMouseEnter={() => setSkill("Node.js")} onMouseLeave={() => setSkill("")}/>
                 <img src="assets/git.svg" alt="" onMouseEnter={() => setSkill("Git")} onMouseLeave={() => setSkill("")}/>
                 <img src="assets/ts.svg" alt="" onMouseEnter={() => setSkill("Type Script")} onMouseLeave={() => setSkill("")}/>
+                <img src="assets/sass.svg" alt="" onMouseEnter={() => setSkill("SASS")} onMouseLeave={() => setSkill("")}/>
+                <img src="assets/material-ui.svg" alt="" onMouseEnter={() => setSkill("Material-UI")} onMouseLeave={() => setSkill("")}/>
             </div>
             <p>{skill}</p>
         </div>
