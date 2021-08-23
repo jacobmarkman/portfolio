@@ -14,9 +14,10 @@
         font-size: 50px;
         margin-bottom: 50px;
 
-        @include mobile {
-            width: 50%;
-            height: 15%;
+        @media (max-width: 768px) {
+            font-size: 40px;
+            margin-bottom: 0px;
+
         }
     }
 
@@ -47,19 +48,11 @@
         justify-content: center;
         flex-wrap: wrap;
 
-
-        @include mobile {
-            display: flex;
-            flex-direction: column;
-            flex-direction: row-reverse;
-        }
-
         .noitem {
             &:hover {
                 cursor: auto;
             }
         }
-
 
         .item {
             width: 220px;
@@ -76,6 +69,12 @@
             cursor: pointer;
             margin-right: 30px;
 
+            @media (max-width: 768px) {
+                display: flex;
+                flex-wrap: wrap;
+                flex-direction: row;
+                height: 200px;
+            }
 
             h3 {
                 position: absolute;
@@ -99,6 +98,7 @@
                 height: 100%;
                 object-fit: cover;
                 z-index: 1;
+
             }
 
             &:hover {
@@ -110,7 +110,8 @@
             }
         }
     }
-    .container a:link, .container a:visited {
+    .container a:link,
+    .container a:visited {
         &:hover {
             background: rgba(255, 101, 101, 0.294);
             transition: all 0.5s ease-in-out;
@@ -118,3 +119,9 @@
     }
 }
 
+
+.img-size > a {
+    @media (max-width: 768px) {
+        display: none;
+    }
+}
