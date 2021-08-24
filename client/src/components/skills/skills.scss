@@ -1,7 +1,7 @@
 @import "../../global.scss";
 
 .skills {
-    background-color: #ffffff;
+    background-color: #85f569;
     background-image: $background;
     background-attachment: fixed;
     background-size: cover;
@@ -10,6 +10,10 @@
     align-items: center;
     justify-content: center;
     position: relative;
+
+    @include mobile {
+        background-image: none;
+    }
 
     h1 {
         font-size: 50px;

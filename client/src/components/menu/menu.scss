@@ -15,6 +15,10 @@
     justify-content: center;
     transition: all 1s ease;
 
+    @include mobile {
+        background-image: none;
+    }
+
     &.active{
         right: 0;
     }

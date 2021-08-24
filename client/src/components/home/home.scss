@@ -1,7 +1,7 @@
 @import "../../global.scss";
 
 .home {
-    background-color: #ffffff;
+    background-color: #c54ee9;
     background-image: $background;
     background-attachment: fixed;
     background-size: cover;
@@ -10,6 +10,7 @@
     @include mobile {
         display: flex;
         flex-direction: column;
+        background-image: none;
     }
 
     .left {
