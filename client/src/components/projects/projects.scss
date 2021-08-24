@@ -19,8 +19,8 @@
         margin-bottom: 50px;
 
         @media (max-width: 768px) {
-            font-size: 40px;
-            margin-bottom: 0px;
+            font-size: 30px;
+            margin-bottom: 3px;
         }
     }
 
@@ -115,14 +115,22 @@
     .container a:link,
     .container a:visited {
         &:hover {
-            background: rgba(255, 101, 101, 0.294);
+            position: relative;
+            background-color: rgba(255, 101, 101, 0.294);
             transition: all 0.5s ease-in-out;
         }
     }
 }
 
 .img-size > a {
+    position: relative;
+    left: 40%;
     @media (max-width: 768px) {
         display: none;
+    }
+    &:hover {
+        position: static;
+        padding-top: 15px;
+        border-radius: 50px;
     }
 }
