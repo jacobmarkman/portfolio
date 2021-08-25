@@ -16,11 +16,10 @@
 
     h1 {
         font-size: 50px;
-        margin-bottom: 50px;
+        height: 15%;
 
         @media (max-width: 768px) {
-            font-size: 30px;
-            margin-bottom: 3px;
+            font-size: 35px;
         }
     }
 
@@ -45,11 +44,13 @@
     }
 
     .container {
-        width: 70%;
         display: flex;
         align-items: center;
         justify-content: center;
+        width: 90%;
         flex-wrap: wrap;
+        flex: 50%;
+        flex-basis: 50%;
 
         .noitem {
             &:hover {
@@ -62,8 +63,9 @@
             height: 300px;
             border-radius: 20px;
             border: 1px solid rgb(226, 226, 226);
-            margin: 10px 20px;
+            margin: 10px 50px;
             display: flex;
+            flex-wrap: wrap;
             align-items: center;
             justify-content: center;
             color: white;
@@ -71,13 +73,7 @@
             transition: all 0.5s ease;
             cursor: pointer;
             margin-right: 30px;
-
-            @media (max-width: 768px) {
-                display: flex;
-                flex-wrap: wrap;
-                flex-direction: row;
-                height: 185px;
-            }
+            object-fit: cover;
 
             h3 {
                 position: absolute;
@@ -125,6 +121,7 @@
 .img-size > a {
     position: relative;
     left: 40%;
+
     @media (max-width: 768px) {
         display: none;
     }

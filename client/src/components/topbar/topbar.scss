@@ -34,6 +34,10 @@
                 text-decoration: none;
                 color: inherit;
                 margin-right: 40px;
+
+                @media (max-width: 350px) {
+                    font-size: 150%;
+                }
             }
             .images {
                 display: flex;

@@ -28,7 +28,6 @@ export default function Projects() {
                     <a href="https://github.com/jacobmarkman/e_commerce" target="_blank">
                         <GitHubIcon style={{ color: 'black' }} />
                     </a>
-
                     <div className="item">
                         <h3>E-Commerce Music DAW Shop <br /><br />
                             <h5>(React, Commerce.js, Material UI)</h5>
