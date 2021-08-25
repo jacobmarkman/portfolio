@@ -47,11 +47,18 @@
         display: flex;
         align-items: center;
         justify-content: center;
-        width: 90%;
+        width: 70%;
         flex-wrap: wrap;
         flex: 50%;
         flex-basis: 50%;
+        background-color: #f3ec8d;
+        background-image: $background-lighter;
+        border-radius: 20px;
 
+        @include mobile {
+            background-image: none;
+        }
+    
         .noitem {
             &:hover {
                 cursor: auto;
