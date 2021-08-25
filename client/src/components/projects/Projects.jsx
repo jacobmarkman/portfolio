@@ -52,8 +52,11 @@ export default function Projects() {
                         </a>
                     </div>
                 </div>
-
+            </div>
+            <div className="blink">
+                <img src="assets/down.png" alt="" />
             </div>
         </div>
+
     )
 }

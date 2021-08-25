@@ -52,10 +52,10 @@
         background-color: #f3ec8d;
         background-image: $background-lighter;
         border-radius: 20px;
+        margin-bottom: 90px;
 
         @include mobile {
             background-image: none;
-            margin-bottom: 90px;
         }
 
         .noitem {
@@ -114,6 +114,7 @@
             }
         }
     }
+
     .container a:link,
     .container a:visited {
         &:hover {
@@ -135,5 +136,22 @@
         position: static;
         padding-top: 15px;
         border-radius: 50px;
+    }
+}
+
+.blink {
+    display: none;
+}
+
+@include mobile {
+    .blink {
+        display: flex;
+        position: relative;
+        bottom: 90px;
+
+        img {
+            width: 30px;
+            animation: arrowBlink 2s infinite;
+        }
     }
 }
