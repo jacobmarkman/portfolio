@@ -8,7 +8,7 @@ export default function Topbar({ menuOpen, setMenuOpen }) {
         <div className={"topbar " + (menuOpen && "active")}>
             <div className="wrapper">
                 <div className="left">
-                    <a href="#intro" className="logo">Jacob Markman</a>
+                    <a href="#home" className="logo">Jacob Markman</a>
                     <div className="images">
                         <a href="https://www.linkedin.com/in/jacobgiliovmarkman/" target="_blank" and rel="noopener noreferrer">
                             <img src="assets/linkedin.svg" alt="" />
