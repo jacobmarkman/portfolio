@@ -20,7 +20,7 @@ export default function Projects() {
                             <h5>(HTML, CSS, JavaScript)</h5>
                         </h3>
                         <a href="https://jacob-markman-tic-tac-toe.netlify.app" target="_blank" and rel="noopener noreferrer">
-                            <img src="./assets/tictactoe.png" alt="" />
+                            <img src="./assets/ticcolored.png" alt="" />
                         </a>
                     </div>
                 </div>
