@@ -48,7 +48,7 @@ export default function Projects() {
                             <h5>(React, Redux, Node/Express/Mongoose, Material UI, MongoDB)</h5>
                         </h3>
                         <a href="https://memories-app-jacob-markman.netlify.app/" target="_blank" and rel="noopener noreferrer">
-                            <img src="./assets/memories.png" alt="" />
+                            <img src="./assets/memories.png" alt=""/>
                         </a>
                     </div>
                 </div>
